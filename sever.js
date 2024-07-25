@@ -20,6 +20,7 @@ const menuItemRoutes=require('./routes/menuItemRoutes');
 app.use('/person',personRoutes);
 app.use('/menu',menuItemRoutes)
 
+// single line comment
 app.listen(4000, () => {
   console.log("Server on port 3000");
 })
